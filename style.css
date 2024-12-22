@@ -1,0 +1,112 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Main container */
+#main {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/* Navigation bar */
+#nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    color: black;
+    padding: 0 30px;
+}
+
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Flex", serif;
+}
+
+#nav i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Center section */
+#center {
+    width: 100%;
+    padding: 40px 50px;
+}
+
+#center h1 {
+    font-size: 60px;
+    color: black;
+    font-family: "Roboto Flex", serif;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+/* Content within center section */
+#centerin {
+    height: 200px;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#centerin p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: black;
+    font-family: "Roboto Flex", serif;
+}
+
+#right {
+    width: 20%;
+    justify-content: center;
+}
+
+/* Action elements */
+.elem {
+    margin-top: 5px;
+    padding: 18px 0;
+    border-top: 2px solid black;
+}
+
+.elem a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto Flex", serif;
+}
+
+.elem:hover {
+    background-color: rgba(0, 0, 0, 0.368);
+}
+
+/* Placeholder for bottom section */
+#bottom {
+    height:35%;
+    width: 100%;
+    background-color: red;
+    background-size: cover;
+    background-position: 0% 20%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1734498806849-fd526c967fde?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    
+}
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&family=Roboto+Flex:wght@100..1000&display=swap');
